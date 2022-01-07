@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .box{
+  width: 335.64px;
+  height: 431.86px;
+  margin: 10px;
+  padding-top: 50px;
+  position: relative /*porque ele e o pai do h1 e do p*/;
+}
+/* Fazendo as imagens adaptarem  */
+
+.container .box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .box .box-1{
+  position: absolute;
+  bottom: 20px; 
+  left: 20px;
+  color: #fff;
+  
+}
+
+
+
+
+
+
+
