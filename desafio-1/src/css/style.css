@@ -1,0 +1,36 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+.logo{
+    display: flex;
+    align-items: center; 
+}
+
+.logo h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 5px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li a{
+    transition: 0.3s ease-in-out;
+    padding: 10px 5px;
+    margin-right: 1.5rem; 
+}
+.menu li a:hover{
+    background-color: #5bc241;
+    color: #fff;
+}
+.menu li a.btn{
+    background-color: #5bc241;
+    border-radius: 1rem;
+    color: #fff;
+    margin-left: 2rem;
+    padding: 10px 20px;
+}
